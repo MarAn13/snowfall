@@ -9,8 +9,6 @@ FetchContent_Declare(
 	GIT_TAG 2.6.x
 	GIT_PROGRESS TRUE
 )
-option(SFML_BUILD_AUDIO "Build audio" OFF)
-option(SFML_BUILD_NETWORK "Build network" OFF)
 add_subdirectory(sfml)
 
 # Dear ImGui
